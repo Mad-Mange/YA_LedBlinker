@@ -36,7 +36,7 @@ class BlinkSlider(wx.Frame):
         sld.Bind(wx.EVT_SCROLL, self.OnSliderScroll)
         sizer.Add(sld, pos=(0, 0), flag=wx.ALL|wx.EXPAND, border=25)
 
-        self.txt = wx.StaticText(pnl, label='5')
+        self.txt = wx.StaticText(pnl, label='1')
         sizer.Add(self.txt, pos=(0, 1), flag=wx.TOP|wx.RIGHT, border=25)
 
         sizer.AddGrowableCol(0)
